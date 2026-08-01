@@ -1,8 +1,25 @@
 aid: pluralis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pluralis.png
 name: Pluralis
-description: Pluralis is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pluralis Research is a decentralized AI lab pioneering Protocol Learning, a third path
+  between closed proprietary models and open-weight models in which large transformer models are
+  collaboratively pre-trained across many low-bandwidth, geographically distributed consumer GPUs
+  without any single participant holding the full model weights. Its work spans communication-efficient
+  model parallelism, asynchronous pipeline-parallel optimization, and community-owned training runs
+  (Agora, node0), published as research papers at NeurIPS, ICML, and ICLR and as open-source libraries.
+  Pluralis is backed by Union Square Ventures. It exposes research libraries, a participation CLI, and
+  live run dashboards rather than a conventional REST/GraphQL developer API.
 url: https://raw.githubusercontent.com/api-evangelist/pluralis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Distributed Training
+- Decentralized AI
+- Model Parallelism
+- Research
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://pluralis.ai
+- type: Documentation
+  url: https://pluralis.ai/docs/
+- type: Blog
+  url: https://pluralis.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/PluralisResearch
+- type: DomainSecurity
+  url: security/pluralis-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
